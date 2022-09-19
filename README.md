@@ -37,9 +37,9 @@ If it's not, you can install it and set it as the default with the following
 commands:
 
 ```console
-$ nvm install 16
-$ nvm alias default 16
-$ nvm use 16
+nvm install 16
+nvm alias default 16
+nvm use 16
 ```
 
 Next, make sure to download the source code for this lesson. Use the "Fork" link
@@ -47,7 +47,7 @@ at the top of the page to fork and clone this lesson onto your computer. Then
 navigate into the lesson's directory and run:
 
 ```console
-$ npm install
+npm install
 ```
 
 This will get and install all the required dependencies for React.
@@ -55,7 +55,7 @@ This will get and install all the required dependencies for React.
 Next, we need to start up a server for the app to run on:
 
 ```console
-$ npm start
+ npm start
 ```
 
 This will host the app and open a browser window to display it. If the server
